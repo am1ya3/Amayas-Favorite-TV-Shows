@@ -1,0 +1,23 @@
+
+@font-face{
+      font-family: stocky;
+      src: url("stocky.ttf");
+    }
+
+body {
+  font-family: stocky;
+  font-size:30px;
+}
+
+img{
+  border-radius: 10px;
+
+}
+
+.Geeks1{
+  color: red;
+} 
+
+.Geeks2{
+  color: blue;
+}
