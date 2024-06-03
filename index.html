@@ -16,7 +16,7 @@
 
 ✨Extras
 [  ] Include Flexbox to assist with layout 
-[  ] Upload Website to GitHub
+[ yes ] Upload Website to GitHub
 [  ] Use a Bootstrap CSS Framework
 [  ] Use a w3Schools template 
 -->
@@ -31,11 +31,12 @@
       <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body style="background-color:pink;"> 
- <center> <h1  style=color:violet> TV shows I love</h1> </center>
+      <p id= "rules">click on the black words to change their color! :)</p>
+ <center> <h1> TV shows I love</h1> </center>
       <ul> 
-      <li style="color: orange;""><strong>The Morning Show</strong>: Jennifer Aniston, Reese Witherspoon (HBO)</li>  
-      <li style="color: green;"><strong>Outer Range</strong>: Imogen Poot, Josh Broli (Amazon Prime Video)</li>
-      <li style="color: purple;"><strong>Kindred</strong>: Mallori Johnson, Micah Stock (Hulu)</li>
+      <li class="morning"><strong>The Morning Show</strong>: Jennifer Aniston, Reese Witherspoon (HBO)</li>  
+      <li id="outer"><strong>Outer Range</strong>: Imogen Poot, Josh Broli (Amazon Prime Video)</li>
+      <li id="kindred"><strong>Kindred</strong>: Mallori Johnson, Micah Stock (Hulu)</li>
     </ul>
      
      <center><img id="morning-show" src="https://www.apple.com/tv-pr/shows-and-films/t/the-morning-show/images/season-03/show-home-graphic-header/key-art-02/4x1/Apple_TV_The_Morning_Show_key_art_graphic_header_4_1_show_home.jpg.og.jpg?1706241966782" alt="Morning Show" width="350"> 
@@ -43,7 +44,7 @@
        <img id="kindred"
          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWIqnWQtzLV7G5IsPMaWe6RQF6VgAccvP9Yh-6NYaung&s" alt="Kindred" width="250"> </center> 
      
-   <p style= "color: purple;">  <center style="color:red"> I love all these TV shows for different reasons. <strong>The Morning Show</strong> is filled with drama and fills you in on the chaotic behind the scenes of morning news. <strong> Outer Range</strong> deals with time travel and family dynamics. <strong>Kindred</strong> also deals with time travel and the editing, cinematography, and acting is SOOOO GOOD!!! <em>SO MAD </em> they took it off of Hulu. </center> </p>
+       <center><p id= "paragraph">  I love all these TV shows for different reasons. <strong>The Morning Show</strong> is filled with drama and fills you in on the chaotic behind the scenes of morning news. <strong> Outer Range</strong> deals with time travel and family dynamics. <strong>Kindred</strong> also deals with time travel and the editing, cinematography, and acting is SOOOO GOOD!!! <em>SO MAD </em> they took it off of Hulu. </center> </p>
         <!-- animation for morning show -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src= "script.js"> 

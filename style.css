@@ -15,9 +15,29 @@ img{
 }
 
 .Geeks1{
-  color: red;
-} 
+  color: #ff0088;
+}
 
 .Geeks2{
-  color: blue;
+ color: #009dff;
+} 
+
+.Geeks4{
+color: seagreen;
+} 
+
+.Geeks5{
+color: #800013;
 }
+
+.Geeks6{
+color: #00807d;
+}
+
+.Geeks3{
+ border: 20px dotted purple;
+} 
+
+
+
+
